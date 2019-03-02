@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		用户名：<input type="text"><input type="button" id="btn" value="denglu">
+		<script >
+			$(function(){
+				$("#btn").on("click",function(){
+					//正则验证
+					//看用户名是否可用，调用接口
+					$.get("http://47.104.244.134:8080/username.do",{"username":$(this).val()},function(data){
+						console.log(data);
+					})
+					//注册接口
+					/* $.post("http://47.104.244.134:8080/usersave.do",{"username":"aaa_xjg","password":"111","email":"aaa_xjg@163.com","sex":"男"},function(data){
+						console.log(data);
+					}); */
+					/*$.post("http://47.104.244.134:8080/userlogin.do",{"username":$("input").eq(0).val(),"password":"111"},function(data){
+						console.log(data);
+					});*/
+				})
+			})
+		</script>
+	</body>
+</html>

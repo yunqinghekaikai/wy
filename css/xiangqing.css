@@ -1,0 +1,74 @@
+*{margin:0;padding: 0;}
+li{list-style: none;}
+a{text-decoration:none;}
+img{display: block;}
+.topz{width:100%;background: #f1f1f1;}
+.top{width:1200px;margin: 0 auto;line-height: 41px;font-size: 10px;background: #f1f1f1;}
+.top a{color: #777;font-size: 10px;}
+.top span{color:#646464;font-size: 10px;}
+.top img{width: 16px;height: 17px;}
+.top .teshu{font-size:10px ;width: 40px;height: 41px;color:#008cd6;margin: 0 19px 0 3px;}
+.top .teshu2{margin: 0 19px;}
+.nav{float: right;height: 41px;}
+.nav li{float: left;text-align: center;height: 41px;line-height: 41px;width: 82px;} 
+.nav span{float: left;margin: 0 26px;}
+.nav li a{ color: #777;height: 41px;display: block;font-size: 10px;}
+.top .nav .teshu3 a{color:#008cd6;}
+.l-z{width: 100%;background: #fff;}
+.logo{width:1200px;margin: 0 auto;height:110px;}
+.logo .teshu{margin-left: 10px;color: #008BD5;}
+.logo .teshu a{color: #008BD5;}
+.logo h1{float: left;margin-top:27px ;}
+.logo li{float: left;font-size: 12px;}
+.logo span{margin: 10px;}
+.logo a{color: #999;}
+.logo a:hover{color: #008BD5;}
+.logo i{font-size: 20px;color: #008bd5;margin: 45px 0 0 9px;display: block;float:left ;}
+.sousuo{margin: 35px 0 0 170px;float: left;}
+.tex{width: 444px;height: 35px;border: 2px solid #008cd6;float: left;}
+.sub{width: 123px;height: 39px;background: #008cd6;border: none;float: left;color: #fff;}
+.erweima{float: right;margin-top: 12px;}
+.xiaonav{width: 1200px;height: 41px;margin: 0 auto;border-bottom: 1px solid #008cd6;}
+.na{padding-left:2px ;float: left;}
+.na li{height: 40px;float: left;margin-right: 26px;text-align: center;line-height: 41px;font-size: 15px;}
+.na li a{color: #000;}
+.na li a:hover{color:blue;}
+.na .te6 {width: 191px;height: 42px;background: #008cd6;color: #fff;}
+.na .te6 a{color: #fff;}
+.lebiao{height: 600px;width: 1180px;margin: 52px auto;padding: 0 10px;position: relative;}
+.datu{width: 400px;height: 400px;position: absolute;left: 500px;top:0;overflow: hidden;display: none;}
+#big img{position: absolute;width: 800px;height: 800px;}
+.L{width: 456px;height: 600px;float: left;position: relative;}
+.l-m{height: 310px;width: 456px;float: left;padding: 30px 0;overflow: hidden;}
+.zoom{position: absolute;width: 200px;height: 200px;background: yellow;opacity: 0.5;cursor: move;display:block;}
+.l-m img{height: 372px;width: 456px;}
+.box{width: 456px;height: 63px;float: left;}
+.box li{float: left;margin-right: 12px;border: 1px solid #ccc;}
+.box img{width: 60px;height:60px ;}
+.ciyu{height: 106px;width:456px ;line-height: 106px;color: #666;}
+.ciyu a{margin: 0 13px;color: #666;}
+.R{width: 662px;height: 400px;float: right;margin-top: 30px;}
+.R h2{color: #333333;font-size: 15px;width: 662px;height: 20px;line-height: 20px;}
+.R span{font-size: 12px;color: red;}
+.R p{width:662px;height: 54px;background: #f3f3f3;line-height: 54px;color: #888888;float: left;margin-top: 20px;}
+.R p b{text-decoration: line-through;margin-right: 41px;}
+.R p span{font-size: 28px;color: #ff0000;margin-right: 10px;margin-left: 40px;}
+.R p a{width: 70px;height: 25px;background: #0000FE;display:inline-block ;text-align: center;line-height: 25px;}
+.R .addr{width: 638px;height: 64px;float: left;margin-left: 20px;border-bottom: 1px dashed #666;background: #fff;}
+.addr select{width: 207px;height: 28px;margin: 0 30px;outline: none;}
+.R .mes{width: 638px;height: 64px;float: left;margin-left: 20px;border-bottom: 1px dashed #666;background: #fff;}
+.R .mes span{color: #67ae6d;}
+.addr2{width: 638px;height: 64px;float: left;margin-left: 20px;}
+.addr2 p{width: 60px;height: 42px;background: #fff;float: left;}
+.addr2 .tex{width: 38px;height: 42px;text-align: center;outline: none;border: 0;float: left;}
+.addr2 .but{width: 22px;height: 21px;float: right;text-align: center;border: 0;}
+.addr2 .buy{width: 200px;height: 38px;border: 1px solid red;float: left;text-align: center;line-height:38px;color: #fff;margin: 20px;background: #ff0000;}
+.addr2 .buy1{width: 200px;height: 38px;border: 1px solid red;float: left;text-align: center;line-height:38px;color: red;margin: 20px;background: #ffeded;}
+.serive{position: fixed;right:0px;top:160px}
+.serive #gouwu{position: relative;}
+#gouwu .qiu{position: absolute;width: 18px;height: 18px;background: red;border-radius: 50%;left: 25px;top:-5px;text-align: center;line-height: 18px;font-size: 12px;z-index: 70;}
+#gouwu a{color: #fff;}
+.serive li{width: 40px;height: 40px;background: #51515b;margin-bottom: 4px;border-radius: 5px;text-align: center;line-height: 40px;color: #fff;position: relative;}
+.serive b{position:absolute;height: 40px; background:#008cef;text-align: center;line-height: 40px;border-radius:5px 0 0 5px;width: 60px;top:0;font-size: 12px;right: -20px;z-index: -2;font-weight: normal;}
+
+ .iconfont{font-size: 25px;color: #008cd6;}

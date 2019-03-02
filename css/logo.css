@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.topz{width: 100%;}
+.top{width: 1200px;height: 100px;margin: 0 auto;}
+.top h1{float: left;margin-top:27px ;}
+h2{position: relative;}
+ h2 img{width:1369px;height: 605px;}
+ .regist {position: absolute;left:869px;top:26px;width: 346px;height: 413px;background: #fff;padding: 30px;}
+ .regist p{width: 331px;height: 37px;padding-left:15px ;border-bottom: 1px solid #ccc;}
+ .regist a{font-size: 12px;color:#008cd6}
+ .regist a:nth-of-type(1){float: left;}
+ .regist a:nth-of-type(2){float: right;}
+ .regist h2{width: 340px;height: 40px;text-align: center;line-height: 40px;font-size: 12px;color:#008cd6;border: 1px solid #008cd6;margin-top: 80px;}
+ .regist h3{width: 340px;height: 40px;text-align: center;line-height: 40px;font-size: 12px;color:#a8a8a8;}
+ .regist ul{padding-left:140px ;}
+ .regist ul li{float: left;margin-right: 5px;}
+ .regist p:nth-of-type(2){height: 58px;line-height: 58px;}
+ .regist span{margin-right: 83px;font-size: 20px;}
+ .num{width: 206px;height: 25px;border: none;outline: none;}
+ .pas{width: 206px;height: 25px;border: none;outline: none;}
+ .r2 span{margin-right: 15px;}
+ .sub{width: 343px;height: 41px;font-size: 12px;background: #dddddd;border: none;color: #949494;margin: 15px 0;}
+ .iconfont{color:#008cd6;}
+ .regist .icon-weixin{color: green;font-size: 35px;}
+ .regist .icon-QQ{color:#008cd6;font-size: 35px;}
+ 

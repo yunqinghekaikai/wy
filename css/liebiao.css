@@ -1,0 +1,46 @@
+*{margin:0;padding: 0;}
+li{list-style: none;}
+a{text-decoration:none;}
+img{display: block;}
+.topz{width:100%;background: #f1f1f1;}
+.top{width:1200px;margin: 0 auto;line-height: 41px;font-size: 10px;background: #f1f1f1;}
+.top a{color: #777;font-size: 10px;}
+.top span{color:#646464;font-size: 10px;}
+.top img{width: 16px;height: 17px;}
+.top .teshu{font-size:10px ;width: 40px;height: 41px;color:#008cd6;margin: 0 19px 0 3px;}
+.top .teshu2{margin: 0 19px;}
+.nav{float: right;height: 41px;}
+.nav li{float: left;text-align: center;height: 41px;line-height: 41px;width: 82px;} 
+.nav span{float: left;margin: 0 26px;}
+.nav li a{ color: #777;height: 41px;display: block;font-size: 10px;}
+.top .nav .teshu3 a{color:#008cd6;}
+.l-z{width: 100%;background: #fff;}
+.logo{width:1200px;margin: 0 auto;height:110px;}
+.logo .teshu{margin-left: 10px;color: #008BD5;}
+.logo .teshu a{color: #008BD5;}
+.logo h1{float: left;margin-top:27px ;}
+.logo li{float: left;font-size: 12px;}
+.logo span{margin: 10px;}
+.logo a{color: #999;}
+.logo a:hover{color: #008BD5;}
+.logo i{font-size: 20px;color: #008bd5;margin: 45px 0 0 9px;display: block;float:left ;}
+.sousuo{margin: 35px 0 0 170px;float: left;}
+.tex{width: 444px;height: 35px;border: 2px solid #008cd6;float: left;}
+.sub{width: 123px;height: 39px;background: #008cd6;border: none;float: left;color: #fff;}
+.erweima{float: right;margin-top: 12px;}
+.xiaonav{width: 1200px;height: 41px;margin: 0 auto;border-bottom: 1px solid #008cd6;}
+.na{padding-left:2px ;float: left;}
+.na li{height: 40px;float: left;margin-right: 26px;text-align: center;line-height: 41px;font-size: 15px;}
+.na li a{color: #000;}
+.na li a:hover{color:blue;}
+.na .te6 {width: 191px;height: 42px;background: #008cd6;color: #fff;}
+.na .te6 a{color: #fff;}
+.list{width: 1200px;height:500px;background: #0086B3;margin: 0 auto;}
+.serive{position: fixed;right:0px;top:160px}
+.serive #gouwu{position: relative;}
+#gouwu .qiu{position: absolute;width: 18px;height: 18px;background: red;border-radius: 50%;left: 25px;top:-5px;text-align: center;line-height: 18px;font-size: 12px;z-index: 70;}
+#gouwu a{color: #fff;}
+.serive li{width: 40px;height: 40px;background: #51515b;margin-bottom: 4px;border-radius: 5px;text-align: center;line-height: 40px;color: #fff;position: relative;}
+.serive b{position:absolute;height: 40px; background:#008cef;text-align: center;line-height: 40px;border-radius:5px 0 0 5px;width: 60px;top:0;font-size: 12px;right: -20px;z-index: -2;font-weight: normal;}
+
+ .iconfont{font-size: 25px;color: #008cd6;}

@@ -2,8 +2,6 @@ $(function() {
 	
 		var str = "";
 		var id = location.search.split("=")[1];
-		var price = location.search.split("=")[2];
-		console.log(price );
 	var url="http://47.104.244.134:8080/goodsbyid.do"
 	$.get(url,{id:id},function(res){
 			 console.log(res)

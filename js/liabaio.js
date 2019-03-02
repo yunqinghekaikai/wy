@@ -27,7 +27,7 @@ $(function(){
 	 	// console.log(res.data[0].name)
 	 		for(var i = 1; i < res.data.length; i++){
 	 			//利用拼接的形式(字符串格式拼接)
-	 			str += "<li><a href='xiangqing.html?id="+res.data[i].id+"&price="+res.data[i].price+"'><img src='"+res.data[i].picurl+"'><p>"+res.data[i].info+"</p><p>"+res.data[i].price+"</p></a><input type='button' class='addBtn' data-id='"+res.data[i].id+"' value='添加购物车'></li>";   
+	 			str += "<li><a href='xiangqing.html?id="+res.data[i].id+"'><img src='"+res.data[i].picurl+"'><p>"+res.data[i].info+"</p><p>"+res.data[i].price+"</p></a><input type='button' class='addBtn' data-id='"+res.data[i].id+"' value='添加购物车'></li>";   
 	 		}
 	 		oList.innerHTML = str;
 			var aBtns = document.querySelectorAll(".addBtn");

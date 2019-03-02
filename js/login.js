@@ -31,7 +31,7 @@ $(function(){
 		function(res){
 			console.log(res);
 			if(res.msg=="OK"){
-				//window.location.href="index.html";
+				window.location.href="index.html";
 				var obj={};
 				var $token=res.data.token;
 				obj[0]=$token;
